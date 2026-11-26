@@ -17,4 +17,8 @@ description: Drafts release notes from pull requests merged since the last
    a verb: "Add CSV export to reports."
 5. Under Breaking, say exactly what users must change.
 
+6. If the user gave no version number, suggest the next one from the last
+   tag: a major bump when anything is under Breaking, a minor bump when
+   anything is under New, a patch bump otherwise. Say it is a suggestion.
+
 Output Markdown with the version and today's date as the heading.
